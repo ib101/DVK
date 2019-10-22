@@ -1,0 +1,24 @@
+{
+  "frequency": 10,
+  "modules": [
+    {
+      "ip": "10.10.10.2",
+      "port": "502",
+      "inputs": [
+        {
+          "read_address": 1,
+          "count": 1,
+          "type": "coil"
+        }
+      ],
+      "outputs": [
+        {
+          "read_address": 4,
+          "write_address": 5,
+          "count": 80,
+          "type": "coil"
+        }
+      ]
+    }
+  ]
+}
